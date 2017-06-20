@@ -1,0 +1,42 @@
+#header {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo {
+	display: inline-flex;
+}
+
+#header p {
+	color: mediumaquamarine;
+}
+.navigation {
+	display: inline-flex;
+}
+
+nav li {
+	display: inline-flex;
+	list-style: none;
+}
+
+nav a {
+	color: #000000;
+}
+
+
+
+.column.large {
+	width: 630px;
+}
+
+.column.medium {
+	width: 300px;
+}
+
+.column.small {
+	width: 240px;
+}
