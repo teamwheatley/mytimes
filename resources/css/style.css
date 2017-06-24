@@ -5,6 +5,7 @@
 	position: fixed;
 	display: flex;
 	justify-content: space-between;
+	background-color: #ffffff;	
 }
 
 #logo {
@@ -16,6 +17,7 @@
 }
 .navigation {
 	display: inline-flex;
+
 }
 
 nav li {
@@ -27,7 +29,69 @@ nav a {
 	color: #000000;
 }
 
+.main. {
+	display: inline-flex;
+}
 
+
+
+
+.large {
+	display: inline-flex;
+}
+
+
+#booze {
+	background-image: url("../images/booze.png");
+	color: #ffffff;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 40px;
+
+}
+
+
+}
+
+#earth {
+	background-image: url("../images/trees.png");
+	color: #ffffff;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+#camera {
+	background-image: url("../images/camera.png");
+	color: #ffffff;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+
+.medium {
+	display: inline-flex;
+}
+
+#cat {
+	background-image: url("../images/cat.png");
+	color: #ffffff;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+.small {
+	display: inline-flex;
+}
+
+#cookie {
+	background-image: url("../images/cookie.png");
+}
 
 .column.large {
 	width: 630px;
