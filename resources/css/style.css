@@ -3,26 +3,37 @@
 	font-size: 14px;
 	font-weight: bold;
 	position: fixed;
-	display: flex;
+	display: inline-flex;
 	justify-content: space-between;
-	background-color: #ffffff;	
+	background-color: #ffffff;
+	z-index: 5;
+	width: 100%;
 }
 
 #logo {
 	display: inline-flex;
+	float: left;
+}
+
+#title {
+	float: left;
 }
 
 #header p {
 	color: mediumaquamarine;
+	padding: 10px 30px;
 }
-.navigation {
-	display: inline-flex;
 
+#navigation {
+	display: inline-flex;
+	padding-right: 50px;
 }
+
 
 nav li {
 	display: inline-flex;
 	list-style: none;
+	padding: 10px 0 50px 0;
 }
 
 nav a {
@@ -30,7 +41,11 @@ nav a {
 }
 
 .main. {
-	display: inline-flex;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
 }
 
 
@@ -38,6 +53,9 @@ nav a {
 
 .large {
 	display: inline-flex;
+	flex-direction: column;
+	max-width: 630px;
+	margin: 10px 30px;
 }
 
 
@@ -74,6 +92,9 @@ nav a {
 
 .medium {
 	display: inline-flex;
+	flex-direction: column;
+	max-width: 300px;
+	margin: 10px 30px;
 }
 
 #cat {
@@ -87,10 +108,14 @@ nav a {
 
 .small {
 	display: inline-flex;
+	flex-direction: column;
+	max-width: 240px;
+	margin: 10px 30px;
 }
 
 #cookie {
 	background-image: url("../images/cookie.png");
+
 }
 
 .column.large {
