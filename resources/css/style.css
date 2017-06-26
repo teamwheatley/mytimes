@@ -1,5 +1,8 @@
 body {
 	margin: 0;
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
 }
 
 #header {
@@ -14,6 +17,7 @@ body {
 	height: 80px;
 	align-items: center;
 	border-bottom: 1px solid black;
+	justify-content: space-between;
 }
 
 #logo {
@@ -24,15 +28,18 @@ body {
 	margin-right: 12px;
 }
 
-
-#header p {
+#logo span {
 	color: mediumaquamarine;
-	padding: 10px 30px;
+	padding-left: 20px;
+}
+
+#lhs {
+	display: inline-flex;
 }
 
 
 header nav {
-	padding-right: 40px;
+	margin-right: 70px;
 }
 
 nav span {
@@ -50,6 +57,9 @@ nav a {
 	justify-content: space-between;
 	align-items: flex-start;
 	padding-top: 116px;
+	padding-left: 70px;
+	padding-right: 70px;
+
 }
 
 
@@ -69,27 +79,70 @@ nav a {
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 40px;
+	height: 300px;
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	padding-left: 20px;
+}
+
+#stories {
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+#orca {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+	margin-right: 20px;
 
 }
 
+#orca h1 {
+	height: 150px;
+}
 
+#breakfast {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+#breakfast h1 {
+	height: 150px;
 }
 
 #earth {
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
 	background-image: url("../images/trees.png");
 	color: #ffffff;
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 30px;
+	height: 300px;
+	width: 300px;
+	margin-right: 20px;
 
 }
 
 #camera {
+	display: inline-flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	background-image: url("../images/camera.png");
 	color: #ffffff;
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 30px;
+	height: 300px;
+	width: 300px;
 }
 
 
@@ -107,7 +160,11 @@ nav a {
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 30px;
-
+	height: 300px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
 }
 
 .small {
@@ -119,7 +176,26 @@ nav a {
 
 #cookie {
 	background-image: url("../images/cookie.png");
+	width: 250px;
+	height: 250px;
+}
 
+#news-bites {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#link-list span {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-bottom: 1px solid black;
+	padding: 10px 50px 10px 30px;
+	font-size: 12px;
+	font-family: Verdana;
+	color: grey;
 }
 
 footer {
